@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Expense Tracker',
+      title: 'Task Managemnt app',
       home: HomePage(),
     );
   }
@@ -33,7 +33,6 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             Text('Chart'),
-            Text('Expense List'),
           ],
         ),
       ),
